@@ -13,8 +13,8 @@ stdenvNoCC.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "MatrixAI";
     repo = "git-common-descendants";
-    rev = "sdfsdfsdf";
-    sha256 = "sdfsdfsdf";
+    rev = "4a53a67cdf6ff9a7503573167de041071671512a";
+    sha256 = "18ny6hdchd5fir9nlah7g2q3ipiv67ygz8y7wd3hgvgh3d9hbra4";
   };
 
   nativeBuildInputs = [ makeWrapper ];
